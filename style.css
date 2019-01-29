@@ -3,20 +3,28 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+body {
+    background-image: url(./img-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 main {
-  background-image: url(./img-bg.jpg);
-  background-size: auto;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 41rem;
-  width: 100%;
-  color: white;
+  /* background-image: url(./img-bg.jpg); */
+  /* background-size: auto;
+  background-repeat: no-repeat; */
+  /* background-position: center; */
+  /* height: 41rem;
+  width: 100%; */
+  color: #fff;
 }
 
 .wrap-header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  background-color: #fff;
 }
 
 .wrap-header-left {
@@ -34,6 +42,7 @@ main {
 #logo {
   height: 2.5rem;
   width: 2.5em;
+  background-color: purple;
 }
 
 #search-bar, input:focus {
@@ -83,7 +92,7 @@ outline: none;
 
 #bottom {
   display: flex;
-  margin-top: 24rem;
+  margin-top: 22rem;
   padding-right: 1rem;
   justify-content: flex-end;
   font-size: .3rem
